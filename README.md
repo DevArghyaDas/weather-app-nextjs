@@ -1,6 +1,6 @@
-# Nextjs Starter Template
+# Weather-App
 
-The Last Starter Template of Nextjs you will ever need.
+A simple weather-app, which fetch your areas current weather.Nothing new.
 
 ## Tech
 
@@ -34,11 +34,3 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Development
-
-Want to contribute? Great!
-
-## License
-
-MIT
