@@ -27,7 +27,7 @@ const ParticleBg = () => {
     name: "Absorbers",
     particles: {
       number: {
-        value: 300,
+        value: 200,
       },
       collisions: {
         enable: true,
@@ -41,14 +41,14 @@ const ParticleBg = () => {
       },
       opacity: {
         value: {
-          min: 0.1,
+          min: 0.3,
           max: 1,
         },
       },
       size: {
         value: {
           min: 1,
-          max: 2,
+          max: 6,
         },
       },
       move: {
@@ -73,7 +73,7 @@ const ParticleBg = () => {
       },
     },
     absorbers: {
-      draggable: true,
+      draggable: false,
       size: {
         value: {
           min: 5,
@@ -86,9 +86,14 @@ const ParticleBg = () => {
         y: 50,
       },
     },
-    // background: {
-    //   color: ,
-    // },
+    background: {
+      color:
+        theme === "dark"
+          ? "#000000"
+          : theme === "light"
+            ? "#ffffff"
+            : "#000000",
+    },
   };
 
   if (init) {
